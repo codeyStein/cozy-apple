@@ -1,0 +1,68 @@
+# Shell
+shell:
+  program: /usr/local/bin/fish
+  args:
+    - --login
+
+# main Window config
+window:
+  descorations: buttonless
+  dynamic_title: true
+
+  padding:
+    x: 3
+    y: 5
+
+
+# Cursor Configuration
+cursor:
+  style:
+    shape: Block
+    blinking: Always
+    blink-interval: 750
+
+
+# Font Configuration
+font:
+  size: 12
+
+  # Font Styles
+  normal:
+    family: JetBrainsMono NF
+    style: Medium
+  bold:
+    family: JetBrainsMono NF
+    style: Bold
+  ialic:
+    family: JetBrainsMono NF
+    style: Italic
+  bold_ialic:
+    family: JetBrainsMono NF
+    style: Bold Italic
+
+
+# Gruvbox Theme
+schemes:
+  gruvbox_material_hard_dark: &gruvbox_material_hard_dark
+    primary:
+      background: '0x1d2021'
+      foreground: '0xd4be98'
+    normal:
+      black:   '0x32302f'
+      red:     '0xea6962'
+      green:   '0xa9b665'
+      yellow:  '0xd8a657'
+      blue:    '0x7daea3'
+      magenta: '0xd3869b'
+      cyan:    '0x89b482'
+      white:   '0xd4be98'
+    bright:
+      black:   '0x32302f'
+      red:     '0xea6962'
+      green:   '0xa9b665'
+      yellow:  '0xd8a657'
+      blue:    '0x7daea3'
+      magenta: '0xd3869b'
+      cyan:    '0x89b482'
+      white:   '0xd4be98'
+
